@@ -27,6 +27,12 @@ input, button {
 
 button {
     background-color: #808080;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #ffa800;
+    color: #FFFFFF;
 }
 
 .logo {
