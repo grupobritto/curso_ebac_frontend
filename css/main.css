@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #393939;
+    background-color: #202020;
     padding-top: 100px;
 }
 
@@ -23,23 +23,25 @@ header h1 {
 }
 
 header img {
-    height: 36px;
+    height: 48px;
     margin-right: 16px;
+    opacity: 70%;
 }
 
 header h1 {
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .container {
-    max-width: 960px;
+    max-width: 600px;
     width: 100%;
     margin: 0 auto;
 }
 
 form {
     display: flex;
-    max-width: 640px;
+    max-width: 600px;
     width: 100%;
     justify-content: space-between;
     margin-bottom: 56px;
@@ -50,9 +52,22 @@ form input {
     font-weight: 100;
     background-color: #FFFFFF;
     border: none;
-    border-bottom: 2px solid #808080;
+    border-bottom: 1px solid #808080;
     padding: 8px;
     outline: none;
+    border-radius: 5px;
+}
+
+#nota-atividade {
+    width: 125px;
+}
+
+#nome-atividade {
+    width: 290px;
+}
+
+.btn {
+    width: 165px;
 }
 
 form button {
@@ -63,6 +78,7 @@ form button {
     border: none;
     cursor: pointer;
     padding: 8px;
+    border-radius: 5px;
 }
 
 table {
@@ -70,7 +86,7 @@ table {
 }
 
 table th {
-    border-bottom: 2px solid #808080;
+    border-bottom: 1px solid #808080;
     padding: 16px;
     font-size: 24px;
     font-weight: bold;

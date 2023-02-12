@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notas | Exercio para calcular média dos alunos</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="https://obritto.com/img/logo-transparente.png">
 </head>
 <body>
     <div class="container">
@@ -16,7 +17,7 @@
         <form id="form-atividade">
             <input id="nome-atividade" type="text" required placeholder="Atividade">
             <input id="nota-atividade" type="number" required placeholder="Nota" min="0" max="10">
-            <button type="submit">Adicionar +</button>
+            <button class="btn" type="submit">Adicionar +</button>
         </form>
         <table cellspacing="0">
             <thead>
@@ -25,7 +26,7 @@
                         Atividade
                     </th>
                     <th>Nota</th>
-                    <th>Aprovado?</th>
+                    <th>Resultado</th>
                 </tr>
             </thead>
             <tbody>
