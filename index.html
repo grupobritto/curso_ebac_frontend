@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notas | Exercio para calcular média dos alunos</title>
+    <title>Agenda | Exercio</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="https://obritto.com/img/logo-transparente.png">
 </head>
@@ -12,32 +12,24 @@
     <div class="container">
         <header>
             <img src="img/logo.png" alt="Logotipo">
-            <h1>Calculadora de médias</h1>
+            <h1>Agenda Telefonica</h1>
         </header>
         <form id="form-atividade">
-            <input id="nome-atividade" type="text" required placeholder="Atividade">
-            <input id="nota-atividade" type="number" required placeholder="Nota" min="0" max="10">
-            <button class="btn" type="submit">Adicionar +</button>
+            <input id="nome" type="text" required placeholder="Nome">
+            <input id="telefone" type="number" required placeholder="Telefone" maxlength="11">
+            <button class="btn" type="submit">Cadastrar +</button>
         </form>
         <table cellspacing="0">
             <thead>
                 <tr>
                     <th>
-                        Atividade
+                        Nome
                     </th>
-                    <th>Nota</th>
-                    <th>Resultado</th>
+                    <th>Telefone</th>
                 </tr>
             </thead>
             <tbody>
             </tbody>
-            <tfoot>
-                <tr>
-                    <td>Média Final</td>
-                    <td id="media-final-valor">---</td>
-                    <td id="media-final-resultado"><span class="resultado">---</span></td>
-                </tr>
-            </tfoot>
         </table>
     </div>
     <script src="js/index.js"></script>
