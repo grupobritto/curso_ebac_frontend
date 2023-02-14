@@ -9,6 +9,4 @@ $(document).ready(function(){
             $(li).toggleClass('done')
         })
     })
-    
-    
 })
