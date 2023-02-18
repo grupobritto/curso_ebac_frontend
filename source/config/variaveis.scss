@@ -1,15 +1,17 @@
 // Fontes
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 $fontRoboto: 'Roboto', sans-serif;
+$fontInter: 'Inter', sans-serif;
 
 // Cores
-$dark: #202020;
-$background: #f5f6fa;
-$headerBackground: #182C61;
+$verde: #3c6045;
+$vermelho: #603c3c;
 $branco: #fff;
-$verdeDark: #44bd32;
-$verdeLight: #4cd137;
+$dark: #202020;
+$orangeLight:#ffa800;
+$orangeDark:#ff9500;
 
 // Media
 $mobile: 767px;
