@@ -1,0 +1,58 @@
+.contato {
+    &__form {
+        max-width: 400px;
+        
+        &__input {
+            width: 100%;
+            margin-bottom: 15px;
+            border: none;
+            background-color: #fff;
+            height: 40px;
+            outline: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        &__textarea {
+            resize: none;
+            width: 100%;
+            height: 150px;
+            padding: 10px;
+            background-color: #fff;
+            outline: none;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        &__button {
+            width: 100%;
+            height: 40px;
+            border: none;
+            background-color: #3c6045;
+            color: #fff;
+            border-radius: 5px;
+            margin-bottom: 250px;
+        }
+    }
+
+    &__title {
+        font-weight: bold;
+        margin-bottom: 16px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 30px;            
+    }
+
+    @media (max-width: 640px) {
+        .container {
+            width: 80%;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .container {
+            width: 90%;
+        }
+    }
+}

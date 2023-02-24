@@ -4,10 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Convite de aniversário</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="shortcut icon" href="https://obritto.com/img/logo.png" type="image/x-icon">
 </head>
 <body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="https://obritto.com/img/logo.png" alt="">
+            <h1 class="hero__title">
+                Voce esta convidado para meu aniversário <span id="countdown" class="hero__countdown">000d 00h 00m 00s</span>
+            </h1>
+        </div>
+    </header>
+    <section class="aniversario">
+        <div class="container" data-aos="fade-down" data-aos-duration="2000" data-aos-easing="linear">
+            <div class="aniversario__details">
+                <h2 class="aniversario__details__title">Data comemorativa</h2>
+                <p class="aniversario__details__description">
+                    Caro professor, se ler esta mensagem, por favor, confirme na correção.<br><br>
+                    Caros amigos e familiares, é com grande alegria que convido a todos para celebrar comigo mais um ano de vida no meu aniversário! No dia 15 de janeiro de 2024, quero reunir as pessoas mais importantes da minha vida para compartilharmos momentos de felicidade, diversão e muita gratidão.
+                    Esse dia é muito especial para mim e não seria completo sem a presença de cada um de vocês. Quero olhar para trás e ter a certeza de que comemorei rodeado de amor e carinho daqueles que mais amo e admiro.
+                    Haverá muita comida gostosa, bebida gelada e música animada para dançarmos juntos até o amanhecer. Espero que todos possam comparecer e desfrutar desse momento tão especial ao meu lado.
+                    Por isso, reservem a data, preparem suas melhores roupas e venham comemorar comigo! A contagem regressiva para o meu aniversário já começou e mal posso esperar para viver esse dia inesquecível com vocês!
+                </p>
+            </div>
+            <img class="aniversario__image" src="https://pbs.twimg.com/profile_images/1406432204251615235/IzOGCaex_400x400.jpg" alt="">
+        </div>
+    </section>
+    <section class="contato">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear">
+            <h1 class="contato__title">
+                Confirme sua presenca
+            </h1>
+            <form class="contato__form">
+                <input type="text" class="contato__form__input" placeholder="Nome">
+                <input type="text" class="contato__form__input" placeholder="Email">
+                <textarea placeholder="Mensagem" class="contato__form__textarea"></textarea>
+                <button class="contato__form__button">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        2023 &copy; Todos os direitos reservados
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

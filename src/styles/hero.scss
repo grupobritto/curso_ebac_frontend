@@ -1,0 +1,75 @@
+.hero {
+    &__logo {
+        display: block;
+        margin: 0 auto;
+        height: 360px;
+        opacity: 15%;
+        margin-top: 2.5vw;
+    }
+
+    &__title {
+        margin-bottom: 50px;
+        color: #fff;
+        opacity: 15%;
+        font-weight: bold;
+        font-size: 40px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__countdown {
+        font-size: 40px;
+        margin-top: 10px;
+        display: block;
+        color: #3c6045;
+        text-transform: lowercase;
+    }
+
+    @media (max-width: 640px) {
+        .container {
+            width: 70%;
+        }
+
+        &__logo {
+            max-width: 80px;
+        }
+
+        &__title {
+            font-size: 25px;
+        }
+
+        &__countdown {
+            font-size: 25px;
+        }
+    }
+
+    @media (max-width: 768px){
+        .container {
+            width: 80%;
+        }
+
+        &__logo {
+            max-width: 160px;
+            height: 100%;
+        }
+
+        &__title {
+            font-size: 25px;
+        }
+
+        &__countdown {
+            font-size: 25px;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .container {
+            width: 90%;
+        }
+
+        &__logo {
+            max-width: 260px;
+            height: 100%;
+        }
+    }
+}
