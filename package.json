@@ -2,9 +2,9 @@
   "name": "curso_ebac_frontend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "build": "parcel build src/index.html --public-url ./",
+    "dev": "parcel src/index.html src/styles/*.scss src/scripts/*.js src/images/*.png src/images/*.jpg src/images/*.svg",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/grupobritto/curso_ebac_frontend#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
-    "parcel": "^2.8.3"
+    "parcel": "^2.8.3",
+    "sharp": "^0.31.3"
   }
 }
