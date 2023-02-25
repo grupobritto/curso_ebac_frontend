@@ -8,7 +8,7 @@
     }
 
     &__title {
-        margin-bottom: 50px;
+        margin-bottom: 10px;
         color: #fff;
         opacity: 15%;
         font-weight: bold;
@@ -19,9 +19,11 @@
 
     &__countdown {
         font-size: 40px;
-        margin-top: 10px;
         display: block;
-        color: #3c6045;
+        color: #338f4a;
+        opacity: 30%;
+        text-align: center;
+        font-weight: bold;
         text-transform: lowercase;
     }
 
