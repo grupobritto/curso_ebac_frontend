@@ -5,8 +5,10 @@
   "scripts": {
     "build": "parcel build src/index.html src/styles/*.scss src/scripts/*.js src/images/*.jpg src/images/*.png src/images/*.svg --public-url ./",
     "dev": "parcel src/index.html src/styles/*.scss src/scripts/*.js src/images/*.jpg src/images/*.png src/images/*.svg",
+    "babel": "babel src --watch -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "browserslist": "> 0.25%",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/grupobritto/curso_ebac_frontend.git"
@@ -19,6 +21,9 @@
   },
   "homepage": "https://github.com/grupobritto/curso_ebac_frontend#readme",
   "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
     "@parcel/transformer-sass": "^2.8.3",
     "parcel": "^2.8.3",
     "sharp": "^0.31.3"
